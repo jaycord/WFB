@@ -1,0 +1,60 @@
+.nav{
+    height: 100px;
+}
+body{
+    background-color: rgb(39,39,37);
+}
+ol{
+    display: inline;
+    color: white;
+}
+ul{
+    text-align: center;
+    padding-top: 50px;
+    font: bolder;
+    font-family: helvetica;
+}
+.slogan{
+    background-color: rgb(39,39,37);
+    height: 200px;
+}
+.top{
+    color: white;
+    font-family: helvetica;
+    text-align: left;
+    font-size: 20px;
+}
+.hero-image{
+    background-image: url("/img/heroimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 550px;
+    margin-top: 10px;
+}
+.hero-text{
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+p{
+    font-family: helvetica;
+}
+.drone-services{
+    height: 315px;
+    width: 560px;
+    margin: 5px;
+}
+aside{
+    color: white;
+    font-family: helvetica;
+    float: right;
+    text-align: center;
+}
+.video{
+    float: right;
+}
