@@ -1,5 +1,11 @@
 .nav{
-    height: 100px;
+    /* height: 100px; */
+    /* background-color: grey; */
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 35px;
 }
 body{
     background-color: rgb(39,39,37);
@@ -10,13 +16,14 @@ ol{
 }
 ul{
     text-align: center;
-    padding-top: 50px;
     font: bolder;
     font-family: helvetica;
+    position: relative;
+    bottom: 55px;
 }
 .slogan{
-    background-color: rgb(39,39,37);
-    height: 200px;
+    /* background-color: rgb(39,39,37); */
+    /* background-color: indigo; */
 }
 .top{
     color: white;
@@ -32,14 +39,28 @@ ul{
     position: relative;
     height: 550px;
     margin-top: 10px;
+    /* border-color: gray; */
 }
 .hero-text{
-    text-align: center;
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 15px;
+  font-family: helvetica;
+}
+button{
+width: 100px;
+height: 50px;
+border: none;
+cursor: pointer;
+font-size: 15px;
+background-color: rgb(148,145,137);
+color: white;
+transition-duration: 0.4s;
+display: inline-block;
 }
 p{
     font-family: helvetica;
@@ -47,14 +68,70 @@ p{
 .drone-services{
     height: 315px;
     width: 560px;
-    margin: 5px;
+    margin: 20px;
+    /* border-style: solid; */
 }
 aside{
     color: white;
     font-family: helvetica;
     float: right;
     text-align: center;
+    margin-left: 600px;
+}
+.drone-paragraph{
+    position: relative;
+    bottom: 250px;
+    font-family: helvetica;
 }
 .video{
     float: right;
+    position: relative;
+    bottom: 100px;
+}
+.virtual-tours{
+font-family: helvetica;
+color: white;
+margin-right: 50%;
+text-align: center;
+}
+.bar{
+    font-family: helvetica;
+    color: white;
+    background-color: rgb(148,145,137);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar-text{
+    /* position: relative; */
+    /* top: 80px; */
+    /* margin-left: 275px; */
+    /* width: 1000px; */
+    /* text-align: center; */
+}
+footer{
+    text-align: center;
+    font-family: helvetica;
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    color: white;
+    font-family: helvetica;
+  }
+  .bottom-image{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: 210px;
+    background-repeat: no-repeat;
+    background-image: url(/img/aboutimage.jpg); 
 }
