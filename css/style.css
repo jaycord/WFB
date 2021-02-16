@@ -2,14 +2,22 @@
     height: 100px;
     /* background-color: grey; */
 } 
+
+/* logo top left  */
+
 .logo{
     height: 80px;
     width: 80px;
     margin-top: 10px;
 }
+
+/* body background color */
+
 body{
     background-color: rgb(39,39,37);
 }
+
+/* unordered list */
 
 .menu{
     text-align: right;
@@ -22,10 +30,14 @@ body{
     margin-right: 30px;
 }
 
+/* all links  */
+
 a{
     color: white;
     text-decoration: none;
 }
+
+/* control slogan details */
 
 .top{
     color: white;
@@ -34,6 +46,8 @@ a{
     font-size: 20px;
     /* background-color: tomato; */
 }
+
+/* hero image home */
 
 .hero-image{
     background-image: url("/img/heroimage.jpg");
@@ -45,6 +59,8 @@ a{
     margin-top: 10px;
     /* border-color: gray; */
 }
+
+/* hero text home  */
 
 .hero-text{
   text-align: center;
@@ -58,6 +74,8 @@ a{
   font-family: 'Patua One', cursive;
 }
 
+/* hero image button  */
+
 button{
 width: 100px;
 height: 50px;
@@ -69,15 +87,24 @@ color: white;
 transition-duration: 0.4s;
 display: inline-block;
 }
+
+/* all paragraph details  */
+
 p{
     font-family: helvetica;
 }
+
+/* drone services  */
+
 .drone-services{
     height: 315px;
     width: 560px;
     margin: 20px;
     /* border-style: solid; */
 }
+
+/* drone services image right side  */
+
 aside{
     color: white;
     font-family: helvetica;
@@ -85,22 +112,34 @@ aside{
     text-align: center;
     margin-left: 600px;
 }
+
+/* drone services text  */
+
 .drone-paragraph{
     position: relative;
     bottom: 250px;
     font-family: helvetica;
 }
+
+/* 360 virtual video youtube  */
+
 .video{
     float: right;
     position: relative;
     bottom: 100px;
 }
+
+/* virtual tours text left side home  */
+
 .virtual-tours{
 font-family: helvetica;
 color: white;
 margin-right: 50%;
 text-align: center;
 }
+
+/* grey bar home  */
+
 .bar{
     font-family: helvetica;
     color: white;
@@ -118,13 +157,33 @@ text-align: center;
     /* width: 1000px; */
     /* text-align: center; */
 }
+
+/* footer */
+
 footer{
-    text-align: center;
     font-family: helvetica;
-    color: grey;
-    display: block;
-    margin-top: 10px;
+    color: white;
 }
+.flight{
+    margin-top: 70px;
+    width: 300px;
+}
+.icons{
+    margin-top: 20px;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+}
+.right-footer{
+    position: relative;
+    float: right;
+    bottom: 80px;
+    /* width: 120px; */
+    font-family: helvetica;
+    right: 20px;
+}
+
+/* about page */
 
 .column {
     float: left;
@@ -142,3 +201,82 @@ footer{
     background-repeat: no-repeat;
     background-image: url(/img/aboutimage.jpg); 
 }
+
+/* start of contact page */
+
+.contact-text{
+    font-family: helvetica;
+    color: white;
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(97, 96, 97); */
+    display: inline-block;
+}
+.hi{
+    font-family: helvetica;
+    color: white;
+    text-align: center;
+}
+
+/* map */
+
+.map{
+   position: relative;
+   float: right;
+   bottom:400px;
+   display: inline-block;
+}
+
+/* form */
+
+form { 
+    /* max-width:420px;  */
+    /* margin:50px; */
+    /* float: right; */
+    position: relative;
+    /* margin-bottom: 300px; */
+}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #6e6e6e;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { 
+    border:2px solid #504f4f; 
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#494949;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
