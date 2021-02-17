@@ -200,10 +200,10 @@ footer{
     margin-top: 210px;
     background-repeat: no-repeat;
     background-image: url("../img/aboutimage.jpg");
-
+  }
 /* start of contact page */
 
-.contact-text{
+.contact-text {
     font-family: helvetica;
     color: white;
     width: 100%;
@@ -211,6 +211,7 @@ footer{
     /* background-color: rgb(97, 96, 97); */
     display: inline-block;
 }
+
 .hi{
     font-family: helvetica;
     color: white;
