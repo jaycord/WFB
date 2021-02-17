@@ -50,7 +50,7 @@ a{
 /* hero image home */
 
 .hero-image{
-    background-image: url("/img/heroimage.jpg");
+    background-image: url("../img/heroimage.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
