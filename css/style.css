@@ -199,8 +199,7 @@ footer{
     height: 300px;
     margin-top: 210px;
     background-repeat: no-repeat;
-    background-image: url(../img/aboutimage.jpg); 
-}
+    background-image: url("../img/aboutimage.jpg");
 
 /* start of contact page */
 
